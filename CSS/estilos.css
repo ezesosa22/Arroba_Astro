@@ -10,7 +10,7 @@ html {
 body {
     background-color: #201E1F;
     font-family: 'Courier New', Courier, monospace;
-}
+ }
 
 
 /*HEADER*/
@@ -400,22 +400,162 @@ form {
 
 
 
+.header__gal    {
 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    background-color: #faaa55fa;
+    height: 66%;
+    
+    z-index: 555;
+    justify-content: space-between;
+
+}
+.menu_galeria   {
+    display: flex;
+    flex-flow: row  wrap;
+    flex: 1;
+}
+
+.astro_galeria  {
+    display: flex;
+    justify-content:flex-start;
+    align-self: flex-end;
+    position: relative;
+    top: 33px;
+    left: 50%;
+    border-radius: 50%
+
+}
+.menu1_galeria {
+    color: #201E1F;
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-style: normal;
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    background-color: #faaa55fa;
+}
+
+    /* GRIDS GALERIA */
 
 .galeria {
 
     margin: 1em 1em auto;
-    height: 2000px;
+    height: 100%;
+    width: 100%;
 
     position: relative;
     border: 5px double rgb(122, 110, 110);
+    display: grid;
+    grid-template-columns: repeat(3, 298px);
+    grid-template-rows: repeat(6, 298px);
+    grid-template-areas: 
+    
+    "galeria10        galeria20     galeria30"
+    "galeria40        galeria50     galeria60"
+    "galeria70        galeria80     galeria90"
+    "galeria100        galeria110     galeria120"
+    "galeria130        galeria140     galeria150"
+    "galeria160        galeria170     galeria180"
+    ;
 
+    justify-content: center;
+    align-items: center;
 
 
 }
 
 
-.galeria10 {
+
+.galeria    div {
+    height: 293px;
+    width: 293px;
+}
+
+
+
+
+.galeria10  {
+    grid-area: galeria10;
+
+}
+.galeria20  {
+    grid-area: galeria20;
+
+}
+.galeria30  {
+    grid-area: galeria30;
+
+}
+.galeria40  {
+    grid-area: galeria40;
+
+}
+.galeria50  {
+    grid-area: galeria50;
+
+}
+.galeria60  {
+    grid-area: galeria60;
+
+}
+.galeria70  {
+    grid-area: galeria70;
+
+}
+.galeria80  {
+    grid-area: galeria80;
+
+}
+.galeria90  {
+    grid-area: galeria90;
+
+}
+.galeria100 {
+    grid-area: galeria100;
+
+}
+.galeria110 {
+    grid-area: galeria110;
+
+}
+.galeria120 {
+    grid-area: galeria120;
+
+}
+.galeria130 {
+    grid-area: galeria130;
+
+}
+.galeria140 {
+    grid-area: galeria140;
+
+}
+.galeria150 {
+    grid-area: galeria150;
+
+}
+.galeria160 {
+    grid-area: galeria160;
+
+}
+.galeria170 {
+    grid-area: galeria170;
+
+}
+.galeria180 {
+    grid-area: galeria180;
+
+}
+
+/* POSICIONAMIENTO FOTOS */
+/* .galeria10 {
     position: relative;
     text-align: center;
     top: 1.56em;
@@ -476,7 +616,7 @@ form {
     left: 108em;
     bottom: 165em;
     ;
-}
+} */
 
 
 
@@ -699,4 +839,7 @@ form {
         margin-top: -11em;
     }
     
+    .menu_header_galeria   {
+        margin-top: -11em;
+    }
 }
