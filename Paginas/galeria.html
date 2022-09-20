@@ -8,47 +8,62 @@
     <link rel="icon" href="../imagenes/arrobaastroLogo.ico">
     <title>Arroba_Astro</title>
     <link rel="stylesheet" href="../CSS/estilos.css">
+    <link rel="stylesheet" href="../CSS/bs/bootstrap.css">
 </head>
 
 <body>
 
 
-    <header class="header_gal">
-
-        <div class="header__galeria">
-            <h1 class="titulo1">
-                Arroba_Astro
-            </h1>
-
-            <img src="../imagenes/arrobaastro.jpg" alt="astro" class="astro_galeria">
-        </div>
-
-        <nav>
-            <div class="menu_galeria">
-                <ul type="link" class="menu_header  menu_header_galeria">
-                    <li>
-                        <a href="../index.html" class="menu1_galeria"><b>Inicio</b> </a>
-                    </li>
-
-                    <li>
-                        <a href="../Paginas/contacto.html" class="menu1_galeria"><b>Contacto</b></a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/galeria.html" class="menu1_galeria"><B>Galeria</B></a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/mock-up.html" class="menu1_galeria"><B>Mock up</B></a>
-                    </li>
-                    <li>
-                        <a href="../Paginas/nosotros.html" class="menu1_galeria"><b>Nosotros</b></a>
-                    </li>
-                </ul>
-
-
-            </div>
-
-        </nav>
-    </header>
+        <header>
+                <div    class="header"  >
+                
+                <h1 class="titulo1">
+                    Arroba_Astro
+                </h1>
+                
+                   
+                <nav class="navbar navbar-expand-lg bg-light">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="../index.html"><b>Inicio</b></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Paginas/nosotros.html"><b>Sobre nosotros</b></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="../Paginas/galeria.html"><b>Galeria</b></a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" " href="../Paginas/mock-up.html"  >
+                              <b>MockUp</b>
+                            </a>
+                            
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"  href="../Paginas/contacto.html"  >
+                              <b>Contacto</b>
+                            </a>
+                            
+                          </li>
+                        </ul>
+                        
+                      </div>
+                    </div>
+                  </nav>
+                
+                
+                <div    astro_Logo><img src="../imagenes/arrobaastro.jpg" alt="astro" class="astro"></div>
+                    
+                
+                
+                    
+                
+                    
+                </div>
+            </header>
 
     <article    class="grid_fotos">
         <div class="galeria">
@@ -128,6 +143,7 @@
         <h4 class="copy"><b> TODOS LOS DERECHOS SON RESERVADOS </b></h4>
 
     </footer>
+    <script     src="../js/bootstrap.bundle.js"></script>
 </body>
 
 </html>
