@@ -976,19 +976,27 @@ form {
 
     .navbar-brand {
         margin-left: 5em !important;
-    
-    
+        background-color:   #faaa55fa !important;
+        
+        
+    }
+    .astro  {
+        margin-top: 33px;
+    }
+    .container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
+        
+        background-color:   #faaa55fa !important;
+        
+        }
+        
+        a.nav-link  {
+            background-color:   #faaa55fa !important;
+        }
+    .nav-item   {
+        border: #201E1F 1px solid;
+        border-bottom: 0px;
     }
 }
-
-.container, .container-fluid, .container-xxl, .container-xl, .container-lg, .container-md, .container-sm {
-    text-align: end;
-    }
-/* .nav-link   {
-    margin-left: 12em;
-} */
-
-
 
 
 
