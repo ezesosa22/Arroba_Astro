@@ -1,0 +1,63 @@
+/*HEADER*/
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0%;
+    background-color: #faaa55fa;
+    height: 52%;
+    width: 100%;
+    z-index: 555;
+    justify-content: space-between;
+
+}
+
+.titulo1 {
+    color: #201E1F;
+    font-size: 5rem;
+    display: flex;
+
+
+
+}
+
+.menu_header {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 100em;
+}
+
+
+.title {
+    margin: 0em;
+    padding: 0em;
+    position: fixed;
+
+}
+
+.astro {
+    display: flex;
+    justify-content: flex-start;
+    align-self: flex-end;
+    position: relative;
+    top: -51px;
+    left: 30%;
+    border-radius: 50%;
+
+}
+.astroLogo {
+    display: flex;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+
+    justify-content: flex-end;
+    z-index: 5555;
+}
+

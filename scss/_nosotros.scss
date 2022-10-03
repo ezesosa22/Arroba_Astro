@@ -1,0 +1,33 @@
+/* ACORDEON NOSOTROS */
+.acordion_nosotros  {
+
+    .accordion {
+        --bs-accordion-bg: #201E1F !important;
+    }
+    
+    .accordion-button:not(.collapsed) {
+        background-color: #201E1F !important;
+    }
+    .nostrosTitulo {
+    
+        font-size: 10em;
+        font-family: 'Courier New', Courier, monospace;
+        text-align: center;
+    
+    
+    }
+    
+    .nosotrosTitulo h2 {
+        text-align: center !important;
+        border: 1px solid rgb(249, 247, 252) !important;
+        margin: 2em !important;
+    
+    }
+    
+    .nosotrosTitulo p {
+    
+        font-size: 2em;
+        font-family: cursive;
+        text-align: center;
+    }
+}

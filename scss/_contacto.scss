@@ -1,0 +1,139 @@
+/* CONTACTO */
+
+.contact_redes  {
+    margin: 1em;
+
+    .contactos {
+        display: flex;
+        list-style-type: none;
+        flex-direction: column;
+        justify-content: space-between;
+    
+        .contactos__link1 {
+            display: inline-block;
+            text-decoration: none;
+            align-self: flex-start;
+            padding: 5em 2em;
+        
+        }
+        
+        .contactos__link2 {
+            display: inline-block;
+            
+            text-decoration: none;
+            padding: 5em 2em;
+        }
+        
+        
+        
+        .contactos__link3 {
+            display: inline-block;
+            
+            text-decoration: none;
+            padding: 5em 2em;
+        }
+        
+        .contactos__link4 {
+            display: inline-block;
+            
+            text-decoration: none;
+            padding: 5em 2em;
+        }
+    }
+    .redes__Contact {
+        color: white;
+        font-size: 2em;
+        font-family: cursive;
+    
+    
+    }
+    
+    .img__ig {
+        position: relative;
+        top: 2em;
+        border-radius: 50%;
+    }
+    
+    .img__fb {
+        position: relative;
+        top: 2em;
+        border-radius: 50%;
+    }
+    
+    .img__tw {
+        position: relative;
+        top: 2em;
+        border-radius: 50%;
+    }
+    
+    .img__lkd {
+        position: relative;
+        top: 1em;
+        
+    }
+    
+    div .wsp    {
+        
+        .img__wsp {
+            position: relative;
+            top: 2em;
+            border-radius: 50%;
+        }
+        
+        .wsp {
+            margin: 5em 1em 4em;
+        }
+
+    }
+}
+form {
+    margin: 13em 1em;
+    
+    .datos__form--label {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+    .datos__form--label {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+    .datos__form--label {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+    .datos__form--label {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+    
+    .textarea {
+        position: relative;
+    
+        left: 5em;
+        margin: auto;
+    }
+}
+
+
+
+
+.formulario {
+    text-align: center;
+    margin-top: 4em;
+    padding: 3em;
+    border: 3em;
+
+}
+
+.datos__form {
+    color: white;
+    font-size: 2em;
+    font-family: cursive;
+    border: chocolate;
+}
+
+
+
