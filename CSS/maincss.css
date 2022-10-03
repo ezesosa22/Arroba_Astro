@@ -330,7 +330,7 @@ header {
   justify-content: flex-start;
   align-self: flex-end;
   position: relative;
-  top: -51px;
+  top: -12px;
   left: 30%;
   border-radius: 50%; }
 
@@ -342,6 +342,10 @@ nav {
   display: flex;
   justify-content: flex-end;
   z-index: 5555; }
+
+.bg-light {
+  margin-left: 800px;
+  margin-top: -170px; }
 
 .subtitulo {
   padding: 3px;
@@ -422,7 +426,7 @@ article {
 
 @media screen and (max-width: 1146px) {
   .astro {
-    top: -83px;
+    top: -12px;
     left: 30%; } }
 
 @media screen and (max-width: 991px) {
@@ -431,7 +435,7 @@ article {
     background-color: #faaa55fa !important;
     margin-top: 15%; }
   .astro {
-    margin-top: 33px; }
+    margin-top: 0px; }
   .container,
   .container-fluid,
   .container-xxl,
@@ -531,6 +535,13 @@ p {
   margin: 1em auto;
   align-items: flex-end;
   align-self: end; }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 62.5%; }
 
 body {
   background-color: #201E1F !important;

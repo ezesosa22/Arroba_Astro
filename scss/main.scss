@@ -20,6 +20,15 @@
 
 @import "videos"    ;
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     background-color: #201E1F !important;
     font-family: 'Courier New', Courier, monospace;
