@@ -14,30 +14,22 @@
             text-decoration: none;
             align-self: flex-start;
             padding: 5em 2em;
+            font-family:'Courier New', Courier, monospace    ;
         
         }
         
         .contactos__link2 {
-            display: inline-block;
-            
-            text-decoration: none;
-            padding: 5em 2em;
+            @extend .contactos__link1
         }
         
         
         
         .contactos__link3 {
-            display: inline-block;
-            
-            text-decoration: none;
-            padding: 5em 2em;
+            @extend .contactos__link1
         }
         
         .contactos__link4 {
-            display: inline-block;
-            
-            text-decoration: none;
-            padding: 5em 2em;
+            @extend .contactos__link1
         }
     }
     .redes__Contact {
