@@ -195,7 +195,8 @@ nav {
   grid-template-rows: repeat(6, 1fr);
   grid-template-areas: "galeria10        galeria20     galeria30" "galeria40        galeria50     galeria60" "galeria70        galeria80     galeria90" "galeria100        galeria110     galeria120" "galeria130        galeria140     galeria150" "galeria160        galeria170     galeria180";
   align-items: baseline;
-  justify-items: center; }
+  justify-items: center;
+  padding: 40px; }
 
 .galeria10 {
   grid-area: galeria10;
