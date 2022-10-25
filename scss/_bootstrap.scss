@@ -1,19 +1,30 @@
 /* APLICANDO BOOTSTRAP */
 
 .navbar-brand {
-    font-size: 20px !important;
+    font-size: 20px ;
     margin-top: 15%;
     font-style: italic;
 }
 
 .bg-light {
-    background-color: #faaa55fa !important;
-    --bs-bg-opacity: 0 !important;
+    background-color: #faaa55fa ;
+    --bs-bg-opacity: 0 ;
     margin-left: 58%;
     margin-top: -20%;
 }
 
 .nav-link {
-    font-size: 20px !important;
+    font-size: 20px ;
     font-style: italic;
 }
+
+    // VARIABLES BG
+
+    $naranja: #faaa55fa;
+    $negro: #201E1F;
+
+    @import "../CSS/bs/bootstrap.css"
+
+    // MODIFICACIONES VAR BS
+    $primary:$negro;
+    --bs-light-rgb: $naranja;
