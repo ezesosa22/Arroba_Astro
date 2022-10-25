@@ -1,16 +1,33 @@
+
+@font-face {
+    font-family: 'qaranta';
+    src: url(../fuentes/Qaranta.otf) format('truetype');
+}
+@font-face {
+    font-family: 'aristotelica';
+    src: url(../fuentes/Aristotelica.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'horus';
+    src: url(../fuentes/Horus.otf) format('truetype');
+}
+
+
+
 h2 {
     color: white;
     font-size: 3rem;
+    font-family: 'qaranta';
 }
 
 
 p {
     color: white;
     font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'aristotelica';
 }
 .contac_redes a b{
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'aristotelica';
     font-size: 20px;
     color: white;
     text-decoration: none
@@ -22,4 +39,16 @@ p {
 }
 b   {
     font-size: 20px;
+    font-family: 'horus';
+}
+.servicios {
+    font-family: 'qaranta';
+}
+
+nav b{
+    font-family: 'qaranta';
+}
+.acordion_nosotros p{
+    font-family: 'qaranta';
+    font-size: 15px;
 }

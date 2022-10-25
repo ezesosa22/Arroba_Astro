@@ -28,7 +28,6 @@ footer {
   footer .redes {
     color: #f9f7fc;
     font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
     text-align: right;
     margin-right: 1em;
     font-style: italic; }
@@ -51,7 +50,8 @@ header {
 .titulo1 {
   color: #201E1F;
   font-size: 5rem;
-  display: flex; }
+  display: flex;
+  font-family: 'qaranta'; }
 
 .menu_header {
   display: flex;
@@ -377,7 +377,6 @@ nav {
     color: white;
     text-align: center;
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
     margin: 5em 5em;
     border: 2px solid #867f7f; }
 
@@ -401,6 +400,8 @@ article {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-style: italic; }
+    article .articulo p {
+      font-family: 'qaranta'; }
 
 /* ACORDEON NOSOTROS */
 .acordion_nosotros .accordion {
@@ -569,17 +570,30 @@ form {
     border: #201E1F 1px solid;
     border-bottom: 0px; } }
 
+@font-face {
+  font-family: 'qaranta';
+  src: url(../fuentes/Qaranta.otf) format("truetype"); }
+
+@font-face {
+  font-family: 'aristotelica';
+  src: url(../fuentes/Aristotelica.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'horus';
+  src: url(../fuentes/Horus.otf) format("truetype"); }
+
 h2 {
   color: white;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: 'qaranta'; }
 
 p {
   color: white;
   font-size: 2em;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'aristotelica'; }
 
 .contac_redes a b {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'aristotelica';
   font-size: 20px;
   color: white;
   text-decoration: none; }
@@ -588,4 +602,15 @@ p {
   text-decoration: none; }
 
 b {
-  font-size: 20px; }
+  font-size: 20px;
+  font-family: 'horus'; }
+
+.servicios {
+  font-family: 'qaranta'; }
+
+nav b {
+  font-family: 'qaranta'; }
+
+.acordion_nosotros p {
+  font-family: 'qaranta';
+  font-size: 15px; }
