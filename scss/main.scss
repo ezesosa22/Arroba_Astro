@@ -1,25 +1,3 @@
-@import "bootstrap" ;
-
-@import "contacto"  ;
-
-@import "galeria"   ;
-
-@import "grids" ;
-
-@import "header"    ;
-
-@import "index" ;
-
-@import "mediaqueries"  ;
-
-@import "nosotros"  ;
-
-@import "texto" ;
-
-@import "vars"  ;
-
-@import "videos"    ;
-
 * {
     margin: 0;
     padding: 0;
@@ -71,4 +49,25 @@ footer {
     
     }
 }
+@import "header"    ;
+@import "bootstrap" ;
+@import "grids" ;
+@import "index" ;
+@import "nosotros"  ;
+@import "galeria"   ;
+@import "contacto"  ;
+@import "videos"    ;
+@import "mediaqueries"  ;
+@import "texto" ;
+@import "vars"  ;
+
+
+
+
+
+
+
+
+
+
 

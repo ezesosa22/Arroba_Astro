@@ -1,4 +1,4 @@
-.videos_mock    {
+.videos_mock {
     .videos {
         display: flex;
         flex-flow: row wrap;
@@ -7,53 +7,35 @@
         padding: 2px;
         align-items: center;
     }
-    
-    
+
+    // EXTEND
     .mock1 {
         display: flex;
         position: relative;
         margin: 5em;
         padding: 2px;
-        border: 2px rgb(247, 161, 104);
+        border: 2px #f7a168;
         border-style: groove;
         box-shadow: lightgray 10px;
         top: 0;
         left: 0;
         margin: 1em auto;
     }
-    
+
     .mock2 {
-        display: flex;
-        position: relative;
-        margin: 5em;
-        padding: 2px;
-        border: 2px rgb(247, 161, 104);
-        border-style: groove;
-        box-shadow: lightgray 10px;
+        @extend .mock1;
         margin: 1em auto;
     }
-    
+
     .mock3 {
-        display: flex;
-        position: relative;
-        margin: 5em;
-        padding: 2px;
-        border: 2px rgb(247, 161, 104);
-        border-style: groove;
-        box-shadow: lightgray 10px;
+        @extend .mock1;
         top: 0;
         right: 0;
         margin: 1em auto;
     }
-    
+
     .mock4 {
-        display: flex;
-    
-        margin: 5em;
-        padding: 2px;
-        border: 2px rgb(247, 161, 104);
-        border-style: groove;
-        box-shadow: lightgray 10px;
+        @extend .mock1;
         bottom: 0;
         margin: 1em auto;
         align-items: flex-end;
