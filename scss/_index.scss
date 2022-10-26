@@ -66,7 +66,7 @@
         color: white;
         text-align: center;
         font-size: 2rem;
-        font-family: 'Courier New', Courier, monospace;
+        
         margin: 5em 5em;
         border: 2px solid rgb(134, 127, 127);
     
@@ -82,12 +82,14 @@
 
     border: 0 solid;
     text-align: center;
+    
 
     .logo__1 {
         border: 0 double #faaa55fa;
         border-width: 5px;
         width: auto;
         min-height: 600px;
+       
     }
 
 }
@@ -100,5 +102,9 @@ article {
         font-family: 'Courier New', Courier, monospace;
         text-align: center;
         font-style: italic;
+        
+        p {
+            font-family: 'qaranta';
+        }
     }
 }

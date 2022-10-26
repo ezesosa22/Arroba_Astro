@@ -136,15 +136,15 @@
 
 .galeria {
 
-    margin: 1em 1em auto;
+    
     height: 100%;
     width: 100%;
 
     position: relative;
     border: 5px double rgb(122, 110, 110);
     display: grid;
-    grid-template-columns: repeat(3, 298px);
-    grid-template-rows: repeat(6, 298px);
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(6, 1fr);
     grid-template-areas:
 
         "galeria10        galeria20     galeria30"
@@ -155,99 +155,118 @@
         "galeria160        galeria170     galeria180"
     ;
 
-    justify-content: center;
-    align-items: center;
+    align-items: baseline;
+    justify-items: center;
+    padding: 40px;
 
 
 }
 .galeria10 {
     grid-area: galeria10;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria20 {
     grid-area: galeria20;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria30 {
     grid-area: galeria30;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria40 {
     grid-area: galeria40;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria50 {
     grid-area: galeria50;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria60 {
     grid-area: galeria60;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria70 {
     grid-area: galeria70;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria80 {
     grid-area: galeria80;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria90 {
     grid-area: galeria90;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria100 {
     grid-area: galeria100;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria110 {
     grid-area: galeria110;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria120 {
     grid-area: galeria120;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria130 {
     grid-area: galeria130;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria140 {
     grid-area: galeria140;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria150 {
     grid-area: galeria150;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria160 {
     grid-area: galeria160;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria170 {
     grid-area: galeria170;
-
+    width: 100%;
+    height: auto;
 }
 
 .galeria180 {
     grid-area: galeria180;
-
+    width: 100%;
+    height: auto;
 }
 
 /* NOSOTROS GRID */

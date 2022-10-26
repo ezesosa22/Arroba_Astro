@@ -1,3 +1,4 @@
+@import url(../CSS/bs/bootstrap.css);
 * {
   margin: 0;
   padding: 0; }
@@ -27,7 +28,6 @@ footer {
   footer .redes {
     color: #f9f7fc;
     font-size: 2em;
-    font-family: 'Courier New', Courier, monospace;
     text-align: right;
     margin-right: 1em;
     font-style: italic; }
@@ -50,7 +50,8 @@ header {
 .titulo1 {
   color: #201E1F;
   font-size: 5rem;
-  display: flex; }
+  display: flex;
+  font-family: 'qaranta'; }
 
 .menu_header {
   display: flex;
@@ -86,18 +87,18 @@ nav {
 
 /* APLICANDO BOOTSTRAP */
 .navbar-brand {
-  font-size: 20px !important;
+  font-size: 20px;
   margin-top: 15%;
   font-style: italic; }
 
 .bg-light {
-  background-color: #faaa55fa !important;
-  --bs-bg-opacity: 0 !important;
+  background-color: #faaa55fa;
+  --bs-bg-opacity: 0 ;
   margin-left: 58%;
   margin-top: -20%; }
 
 .nav-link {
-  font-size: 20px !important;
+  font-size: 20px;
   font-style: italic; }
 
 /* GRIDS    INDEX */
@@ -186,71 +187,107 @@ nav {
 
 /* GRIDS GALERIA FOTOS */
 .galeria {
-  margin: 1em 1em auto;
   height: 100%;
   width: 100%;
   position: relative;
   border: 5px double #7a6e6e;
   display: grid;
-  grid-template-columns: repeat(3, 298px);
-  grid-template-rows: repeat(6, 298px);
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(6, 1fr);
   grid-template-areas: "galeria10        galeria20     galeria30" "galeria40        galeria50     galeria60" "galeria70        galeria80     galeria90" "galeria100        galeria110     galeria120" "galeria130        galeria140     galeria150" "galeria160        galeria170     galeria180";
-  justify-content: center;
-  align-items: center; }
+  align-items: baseline;
+  justify-items: center;
+  padding: 40px; }
 
 .galeria10 {
-  grid-area: galeria10; }
+  grid-area: galeria10;
+  width: 100%;
+  height: auto; }
 
 .galeria20 {
-  grid-area: galeria20; }
+  grid-area: galeria20;
+  width: 100%;
+  height: auto; }
 
 .galeria30 {
-  grid-area: galeria30; }
+  grid-area: galeria30;
+  width: 100%;
+  height: auto; }
 
 .galeria40 {
-  grid-area: galeria40; }
+  grid-area: galeria40;
+  width: 100%;
+  height: auto; }
 
 .galeria50 {
-  grid-area: galeria50; }
+  grid-area: galeria50;
+  width: 100%;
+  height: auto; }
 
 .galeria60 {
-  grid-area: galeria60; }
+  grid-area: galeria60;
+  width: 100%;
+  height: auto; }
 
 .galeria70 {
-  grid-area: galeria70; }
+  grid-area: galeria70;
+  width: 100%;
+  height: auto; }
 
 .galeria80 {
-  grid-area: galeria80; }
+  grid-area: galeria80;
+  width: 100%;
+  height: auto; }
 
 .galeria90 {
-  grid-area: galeria90; }
+  grid-area: galeria90;
+  width: 100%;
+  height: auto; }
 
 .galeria100 {
-  grid-area: galeria100; }
+  grid-area: galeria100;
+  width: 100%;
+  height: auto; }
 
 .galeria110 {
-  grid-area: galeria110; }
+  grid-area: galeria110;
+  width: 100%;
+  height: auto; }
 
 .galeria120 {
-  grid-area: galeria120; }
+  grid-area: galeria120;
+  width: 100%;
+  height: auto; }
 
 .galeria130 {
-  grid-area: galeria130; }
+  grid-area: galeria130;
+  width: 100%;
+  height: auto; }
 
 .galeria140 {
-  grid-area: galeria140; }
+  grid-area: galeria140;
+  width: 100%;
+  height: auto; }
 
 .galeria150 {
-  grid-area: galeria150; }
+  grid-area: galeria150;
+  width: 100%;
+  height: auto; }
 
 .galeria160 {
-  grid-area: galeria160; }
+  grid-area: galeria160;
+  width: 100%;
+  height: auto; }
 
 .galeria170 {
-  grid-area: galeria170; }
+  grid-area: galeria170;
+  width: 100%;
+  height: auto; }
 
 .galeria180 {
-  grid-area: galeria180; }
+  grid-area: galeria180;
+  width: 100%;
+  height: auto; }
 
 /* NOSOTROS GRID */
 .contenedor_nosotros {
@@ -340,7 +377,6 @@ nav {
     color: white;
     text-align: center;
     font-size: 2rem;
-    font-family: 'Courier New', Courier, monospace;
     margin: 5em 5em;
     border: 2px solid #867f7f; }
 
@@ -364,6 +400,8 @@ article {
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     font-style: italic; }
+    article .articulo p {
+      font-family: 'qaranta'; }
 
 /* ACORDEON NOSOTROS */
 .acordion_nosotros .accordion {
@@ -532,14 +570,50 @@ form {
     border: #201E1F 1px solid;
     border-bottom: 0px; } }
 
+@font-face {
+  font-family: 'qaranta';
+  src: url(../fuentes/Qaranta.otf) format("truetype"); }
+
+@font-face {
+  font-family: 'aristotelica';
+  src: url(../fuentes/Aristotelica.ttf) format("truetype"); }
+
+@font-face {
+  font-family: 'horus';
+  src: url(../fuentes/Horus.otf) format("truetype"); }
+
 h2 {
   color: white;
-  font-size: 3rem; }
+  font-size: 3rem;
+  font-family: 'qaranta'; }
 
 p {
   color: white;
   font-size: 2em;
-  font-family: 'Courier New', Courier, monospace; }
+  font-family: 'aristotelica'; }
+
+.contac_redes a b {
+  font-family: 'aristotelica';
+  font-size: 20px;
+  color: white;
+  text-decoration: none; }
+
+.contac_redes a {
+  text-decoration: none; }
+
+b {
+  font-size: 20px;
+  font-family: 'horus'; }
+
+.servicios {
+  font-family: 'qaranta'; }
+
+nav b {
+  font-family: 'qaranta'; }
+
+.acordion_nosotros p {
+  font-family: 'qaranta';
+  font-size: 15px; }
 
 .contac_redes a b {
   font-family: 'Courier New', Courier, monospace;
